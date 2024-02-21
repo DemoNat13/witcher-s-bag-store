@@ -2,7 +2,4 @@ module.exports = {
   transpileDependencies: [
     'vuetify',
   ],
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/witcher-s-bag-store/' // note the trailing slash
-    : '/',
 };
